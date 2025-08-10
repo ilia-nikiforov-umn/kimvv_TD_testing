@@ -16,7 +16,7 @@ OPENKIM_TEST_DRIVERS = {
 }
 
 # List of URLs of development Test Drivers to test
-DEVEL_TEST_DRIVERS = {"https://github.com/ilia-nikiforov-umn/CrystalGenomeASEExample__TD_000000654321_000/archive/refs/tags/v000b0.tar.gz":{}}
+DEVEL_TEST_DRIVERS = {"https://drive.google.com/uc?export=download&id=128tO7mexBNdzKwkiOythYPiQMfYROAu_": {}}
 
 
 def create_init(td_root_path: os.PathLike):
