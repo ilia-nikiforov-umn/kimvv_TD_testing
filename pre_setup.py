@@ -16,7 +16,7 @@ OPENKIM_TEST_DRIVERS = {
 }
 
 # List of URLs of development Test Drivers to test
-DEVEL_TEST_DRIVERS = {"https://drive.google.com/uc?export=download&id=128tO7mexBNdzKwkiOythYPiQMfYROAu_": {}}
+DEVEL_TEST_DRIVERS = {"https://openkim.org/contribute/TD_685283176869_000/archive?compression=xz": {"pressure_step_gpa": 5, "exp_step": 1.5, "min_steps": 10}}
 
 
 def create_init(td_root_path: os.PathLike):
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         tmpfile, _ = urlretrieve(test_driver)
         # Extract it to a temporary directory
         with TemporaryDirectory() as tmpdir:
-            with tarfile.open(tmpfile, "r:gz") as f:
+            with tarfile.open(tmpfile, "r:xz") as f:
                 f.extractall(tmpdir)
             # Find the kimspec.edn
             kimspec_match = Path(tmpdir).rglob("kimspec.edn")
