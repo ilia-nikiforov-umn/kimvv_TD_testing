@@ -22,7 +22,7 @@ OPENKIM_TEST_DRIVERS = {
 }
 
 # List of URLs of development Test Drivers to test
-DEVEL_TEST_DRIVERS = {}
+DEVEL_TEST_DRIVERS = {"https://github.com/openkim-hackathons/StackingFaultFCC__TD_000000654321_000/archive/refs/tags/v000a7.tar.gz":{}}
 
 MAX_URLLIB_ATTEMPTS = 10
 
