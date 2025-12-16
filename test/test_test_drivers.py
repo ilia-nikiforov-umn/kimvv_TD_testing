@@ -36,17 +36,6 @@ def test_test_driver(td_name: str, model: Union[str, Calculator]) -> None:
         model:
             The model to use.
     """
-    
-    print(f"\nTesting {td_name} with {model}\n")
-    if td_name == "InProgress0" and not isinstance(model, str):
-        import debugpy
-        debugpy.listen(5678)
-        print("Waiting for debugger attach")
-        debugpy.wait_for_client()
-        debugpy.breakpoint()    
-        print('break on this line')
-
-
     # Start with FCC Au
     atoms = bulk("Au")
 
