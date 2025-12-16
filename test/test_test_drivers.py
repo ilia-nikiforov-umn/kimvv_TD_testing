@@ -36,6 +36,8 @@ def test_test_driver(td_name: str, model: Union[str, Calculator]) -> None:
         model:
             The model to use.
     """
+    print(f"\nTesting {td_name} with {model}\n")
+    
     # Start with FCC Au
     atoms = bulk("Au")
 
