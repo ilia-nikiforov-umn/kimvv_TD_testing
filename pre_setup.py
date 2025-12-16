@@ -23,7 +23,7 @@ OPENKIM_TEST_DRIVERS = {
 
 # List of URLs of development Test Drivers to test
 DEVEL_TEST_DRIVERS = {"https://openkim.org/for-ilia/TD_099540502402_000-20251211.txz":{},
-                      "TD_075370685332_000-kimvv.txz":{}}
+                      "TD_075370685332_000-update-test_driver-kimvv.txz":{}}
 
 MAX_URLLIB_ATTEMPTS = 10
 
