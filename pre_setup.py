@@ -24,8 +24,12 @@ OPENKIM_TEST_DRIVERS = {
 }
 
 # List of URLs of development Test Drivers to test
-DEVEL_TEST_DRIVERS = {"https://openkim.org/for-ilia/TD_099540502402_000-20251211.txz":{},
-                      "TD_075370685332_000-update-test_driver-kimvv.txz":{}}
+DEVEL_TEST_DRIVERS = {
+    "FreeEnergies__TD_000000000000_000-000b-ilia0.tar.gz": {
+        "target_size": 100,
+        "temperature_K": 300,
+    }
+}
 
 MAX_URLLIB_ATTEMPTS = 10
 
