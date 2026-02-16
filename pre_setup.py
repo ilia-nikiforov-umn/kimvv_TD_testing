@@ -25,7 +25,11 @@ OPENKIM_TEST_DRIVERS = {
 
 # List of URLs of development Test Drivers to test
 DEVEL_TEST_DRIVERS = {
-    "v000.rev0.tar.gz": {
+    "https://github.com/openkim-hackathons/HeatCapacity/archive/refs/tags/v000b0.tar.gz": {
+        "temperature_K": 293.15,
+        "repeat": (3, 3, 3),
+        "lammps_command": "mpirun -np 2 lmp",
+        "max_workers": 2,
     }
 }
 
