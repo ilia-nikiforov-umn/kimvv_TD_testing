@@ -29,7 +29,7 @@ DEVEL_TEST_DRIVERS = {
         "temperature_K": 293.15,
         "repeat": (3, 3, 3),
         "lammps_command": "lmp",
-        "max_workers": 2,
+        "max_workers": 3,
     }
 }
 
