@@ -28,7 +28,7 @@ DEVEL_TEST_DRIVERS = {
     "https://github.com/openkim-hackathons/HeatCapacity/archive/refs/tags/v000b0.tar.gz": {
         "temperature_K": 293.15,
         "repeat": (3, 3, 3),
-        "lammps_command": "mpirun -np 2 --bind-to numa lmp",
+        "lammps_command": "lmp",
         "max_workers": 2,
     }
 }
