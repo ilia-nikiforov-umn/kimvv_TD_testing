@@ -38,12 +38,7 @@ OPENKIM_TEST_DRIVERS = {
 
 # List of URLs of development Test Drivers to test
 DEVEL_TEST_DRIVERS = {
-    "https://github.com/openkim-hackathons/HeatCapacity/archive/refs/tags/v000b1.tar.gz": {
-        "temperature_K": 293.15,
-        "repeat": (3, 3, 3),
-        "lammps_command": "lmp",
-        "max_workers": 3,
-    }
+    "InProgress__TD_167636467750_000.txz": {'temperature_K': 300, 'target_size': 500, 'msd_timesteps': 1000}
 }
 
 MAX_URLLIB_ATTEMPTS = 9999
